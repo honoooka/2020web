@@ -25,6 +25,10 @@
       document.querySelector('html').onclick = function() {
         alert('痛っ! つつくのはやめて!');
       }
+      document.querySelector('html').onclick = function() {};
+      let myHTML = document.querySelector('html');
+      myHTML.onclick = function() {};
+      
       let myImage = document.querySelector('img');
       myImage.onclick = function() {
         let mySrc = myImage.getAttribute('src');
